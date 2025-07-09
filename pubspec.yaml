@@ -1,6 +1,8 @@
 
 name: qms_app
 description: تطبيق إدارة الجودة
+publish_to: "none"
+
 version: 1.0.0+1
 
 environment:
@@ -8,6 +10,10 @@ environment:
 
 dependencies:
   flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
     sdk: flutter
 
 flutter:
